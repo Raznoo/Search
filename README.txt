@@ -3,7 +3,7 @@ Project partners: Robert Boudreaux
 
 Instructions for use, describing how a user would interact with your program: 
 -----------------------------------------------------------------------------------
-To use our program, a user would first input an xml file of interest, as well as titles.txt, docs.txt, and words.txt as inputs into our indexer. Running the indexer would do the parsing of the XML file, tokenizing, stopping/stemming, and pageRank calculations, as well as writing and saving of the txt files with mappings of document IDs to titles in titles.txt, PageRank rankings in docs.txt, and relevance of documents to words in words.txt. 
+To use our program, a user would first input an xml file of interest, as well as titles.txt, docs.txt, and words.txt (usually all blank txt documents to be written to by the indexer) as inputs into our indexer. Running the indexer would do the parsing of the XML file, tokenizing, stopping/stemming, and pageRank calculations, as well as writing and saving of the txt files with mappings of document IDs to titles in titles.txt, PageRank rankings in docs.txt, and relevance of documents to words in words.txt. 
 
 Afterwards, the user would input a query of interest into the querier, from which the querier will return the titles of documents with the top 10 scores as calculated by term frequency multipled by inverse document frequency (and also potentially factoring in pageRank if specified in the input arguments for indexer). 
 
