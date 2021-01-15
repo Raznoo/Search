@@ -1,4 +1,4 @@
-Project partners: Robert Boudreaux, Phil Yang, Jack Williamson 
+Project partners: Robert Boudreaux
 -----------------------------------------------------------------------------------
 
 Instructions for use, describing how a user would interact with your program: 
